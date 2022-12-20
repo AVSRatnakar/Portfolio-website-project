@@ -1,0 +1,206 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+#nabar{
+    background-color: #4b6cb7;
+    font-size: 24px;
+    padding : 16px;
+    position: sticky;
+    top: 0;
+}
+#nabar a{
+    text-decoration: none;
+    color: white;
+}
+
+.profile{
+    height: 100vh;
+    width: 100%;
+    background-color: #009bff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: -webkit-linear-gradient(to right, #182848, #4b6cb7);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #182848, #4b6cb7); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+}
+
+.profile_child {
+    width: 40vw;
+    background-color: rgba(255, 255, 255, .1);
+    padding: 50px 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    row-gap: 25px;
+    text-align: center;
+    border-radius: 10px;
+}
+
+
+
+.pro_image{
+    height: 200px;
+    width: 200px;
+    background-color: red;
+    border-radius: 50%;
+    overflow: hidden; 
+}
+
+.pro_img{
+    width: 100%;
+}
+
+.name {
+    font-size: 60px;
+    font-weight: 300;
+    color: white;
+    font-family: 'Lobster', cursive;
+
+}
+
+.title
+{
+    font-weight: 200;
+    font-family: segoe UI;
+    color: white;
+}
+
+.icons 
+{
+    font-size: 35px;
+    color: white;
+    display: flex;
+    column-gap: 20px;
+}
+
+i {
+    cursor: pointer;
+}
+
+
+/* projects css  */
+
+.projects 
+{
+    width: 100%;
+    height: 100%;
+    padding: 50px 10%;
+    background: rgba(24, 40, 72, 0.8);
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+
+    row-gap: 50px;
+
+}
+
+.section_title 
+{
+    color: whitesmoke;
+    font-family: segoe UI;
+    font-size: 40px;
+    text-transform: capitalize;
+    text-decoration: underline;
+    font-weight: 275;
+}
+
+
+.works 
+{
+    width: 100%;
+    background-color: white;
+    padding: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    row-gap: 25px;
+    /* column-gap: 1.33%;  */
+} 
+
+.work 
+{
+    height: 300px;
+    width: 250px;
+    background-color: red;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    align-items: flex-end;
+    overflow: hidden;
+}
+
+.work_detail 
+{
+    background-color: rgba(0, 0, 0, .8);
+    min-height: 0;
+    width: 100%;
+    padding: 20px;
+    font-family: segoe UI;
+    color: white;
+    transition: .2s;
+    cursor: pointer;
+}
+
+.work_detail:hover 
+{
+    min-height: 50%;
+   
+}
+
+.link 
+{
+    font-size: 20px;
+    font-weight: 200;
+    cursor: pointer;
+}
+
+.link:hover 
+{
+    text-decoration: underline;
+}
+
+.work:nth-child(1)
+{
+    background-image: url('photographg.jpg');
+}
+
+.work:nth-child(2)
+{
+    background-image: url('coding.png');
+}
+
+.work:nth-child(3)
+{
+    background-image: url('img_scr1.png');
+}
+
+.work:nth-child(4)
+{
+    background-image: url('hyderabad.jpg');
+}
+
+.work:nth-child(5)
+{
+    background-image: url('pubg.jpg');
+}
+
+.work:nth-child(6)
+{
+    background-image: url('cricket.png');
+}
+
+.work:nth-child(7)
+{
+    background-image: url('btech.jpg');
+}
+
+.work:nth-child(8)
+{
+    background-image: url('pu.jpg');
+}
+
